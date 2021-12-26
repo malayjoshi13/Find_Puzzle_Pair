@@ -13,10 +13,18 @@ we want to find such like puzzle piece so that both could form a pair which fits
 ## What makes Find_Puzzle_Pair work?
 The basic principle on which it works is that if done thresholding of pair images in complimentary/opposite manners then they both will look much similar to each other. This means if we do **THRESH_BINARY** thresholding of first puzzle piece to make it look like from this 
 
+![bandicam 2021-12-27 00-00-23-384](https://user-images.githubusercontent.com/71775151/147417044-3feab6bb-ced2-4a90-87f8-438d4aed337e.jpg)
+
 to this.
+
+![bandicam 2021-12-27 00-28-56-195](https://user-images.githubusercontent.com/71775151/147417572-dccfd9ef-d3d3-421c-bc86-c349751b495b.jpg)
 
 And do **THRESH_BINARY_INV** thresholding with another piece to make it look like from this
 
+![bandicam 2021-12-27 00-00-52-038](https://user-images.githubusercontent.com/71775151/147417046-867b3c23-53f3-4b90-93c8-1e1ceb8ba6de.jpg)
+
 to this.
+
+![bandicam 2021-12-27 00-29-25-821](https://user-images.githubusercontent.com/71775151/147417579-ee3bb1c2-6d8f-4e1d-b330-e7beae6bcc4e.jpg)
 
 Then we could say that both threholded images look much similar.
