@@ -31,4 +31,7 @@ Then we could say that both threholded images look much similar.
 
 Thus after making all training pairs given in ```training_data.csv```file in such complimentary thresholded format, we train Siamese model by help of ```similarity2.ipynb``` file (link:- https://colab.research.google.com/drive/1y01t-6FmIvilFsKIqnAdhE_HXkq_CnIs?usp=sharing) to understand how a particular pair look similar to each other and how much different from any randomly taken puzzle piece. 
 
-After training is over the trained model will find puzzle pairs that when complimentary thresholded looks similar. These pairs are actually the same pairs that will also fit together in each other.   
+After training is over the trained model will find puzzle pairs that when complimentary thresholded looks similar. These pairs are actually the same pairs that we are looking for which will fit together in each other.   
+
+## Usage
+Users can go through the whole training process from this file (https://colab.research.google.com/drive/1y01t-6FmIvilFsKIqnAdhE_HXkq_CnIs?usp=sharing). Dataset can be found here https://drive.google.com/drive/folders/1x0HgL6yH7URfFD68LhXBErf3KhzdsydN?usp=sharing. 
