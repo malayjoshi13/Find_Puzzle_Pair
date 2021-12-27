@@ -2,6 +2,8 @@
 
 Find_Puzzle_Pair is **Computer vision** and **Deep learning** based **pair finder** which by using **Siamese neural network** find partner of a given puzzle piece that could fit with it.
 
+Unlike a conventional CNN, the Siamese Network does not classify the images into certain categories or labels, rather it only finds out the distance between any two given images. If the images have the same label, then the network should learn the parameters, i.e. the weights and the biases in such a way that it should produce a smaller distance between the two images, and if they belong to different labels, then the distance should be larger.
+
 As an example, for such given input image of a puzzle piece,
 
 ![bandicam 2021-12-27 00-00-23-384](https://user-images.githubusercontent.com/71775151/147417044-3feab6bb-ced2-4a90-87f8-438d4aed337e.jpg)
